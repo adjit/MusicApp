@@ -23,7 +23,7 @@ Scaffold-DbContext "Server=(localdb)\mssqllocaldb;Database=Blogging;Trusted_Conn
 Install-Package NLog.Web.AspNetCore -Version 4.8.3
 Install-Package NLog -Version 4.6.5
 ```
-
+<hr/>
 <h3>Install nuget Autofac Packages</h3> 
 
 [Replacing Default Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#default-service-container-replacement)
