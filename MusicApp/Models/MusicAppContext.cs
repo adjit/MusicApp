@@ -23,8 +23,7 @@ namespace MusicApp.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=34.67.187.114,1433;User ID=tguAdmin;Password=thisdbAdmin15ready%;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;Database=MusicApp;");
+                optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MusicApp;Trusted_Connection=True;");
             }
         }
 
